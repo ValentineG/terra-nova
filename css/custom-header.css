@@ -102,3 +102,46 @@ body.theme-luxtower [data-elementor-columns-mobile="4"] .column-item{flex: 0 0 2
 }
 /********* Block 1 Welcome **********/
 /************************************/
+
+/* Примусове вирівнювання контейнера (Заголовок + Карусель) */
+section.elementor-element-4ebc742 .elementor-container {
+    display: flex !important;
+    flex-direction: row !important; /* Текст праворуч, бренди ліворуч */
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+
+/* Примусове вирівнювання самих брендів у ряд */
+section.elementor-element-4ebc742 .luxtower-carousel {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    justify-content: flex-start !important;
+    gap: 20px !important;
+}
+
+/* Налаштування окремого бренду, щоб вони не розтягувалися на всю ширину */
+section.elementor-element-4ebc742 .elementor-brand-item {
+    flex: 0 0 auto !important; /* Не дає картинкам займати весь простір */
+    width: 250px !important;   /* Фіксуємо ширину для статичного вигляду */
+}
+
+section.elementor-element-4ebc742 .elementor-brand-item img {
+    width: 100% !important;
+    height: auto !important;
+}
+
+/* Адаптивність для мобільних (щоб не вилазило за екран) */
+@media (max-width: 767px) {
+    section.elementor-element-4ebc742 .elementor-container {
+        flex-direction: column-reverse !important; /* На мобільних заголовок зверху */
+    }
+    section.elementor-section.elementor-reverse-mobile > .elementor-container > .elementor-column {
+        width: 100% !important;
+    }
+    section.elementor-element-4ebc742 .luxtower-carousel {
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+    }
+}
