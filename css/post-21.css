@@ -1194,11 +1194,8 @@ body.rtl .elementor-21 .elementor-element.elementor-element-9545da5 {
 }
 .elementor-21 .elementor-element.elementor-element-ab7b752 .elementor-heading-title {
     color: var(--e-global-color-dark);
-    font-family: "Onest", Sans-serif;
     font-size: 24px;
     font-weight: 600;
-    text-transform: capitalize;
-    letter-spacing: -2px;
 }
 :root {
     --page-title-display: none;

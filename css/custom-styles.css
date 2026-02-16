@@ -206,3 +206,118 @@ h1 {
 }
 /********* Building Plan (end) **********/
 /************************************/
+
+/************************************/
+/********* Gallery (start) **********/
+
+/* Контейнер, який прибирає зайві відступи Elementor */
+.custom-gallery-container {
+    width: 100% !important;
+    padding: 20px 0 !important;
+}
+
+/* Сама сітка */
+.custom-grid-wrapper {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important; /* 3 колонки */
+    grid-auto-rows: 300px !important; /* Фіксована висота рядка */
+    gap: 15px !important;
+    width: 100% !important;
+}
+
+/* Елемент сітки */
+.grid-item {
+    position: relative !important;
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.grid-item a {
+    display: block !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.grid-item img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important; /* Картинка заповнює блок без деформації */
+    transition: transform 0.5s ease;
+}
+
+/* Розтягування 5-го фото на 2 колонки */
+@media (min-width: 1025px) {
+    .item-5 {
+        grid-column: span 2 !important;
+    }
+}
+
+/* Мобільна версія: 2 фото в рядок */
+@media (max-width: 768px) {
+    .custom-grid-wrapper {
+        grid-template-columns: repeat(2, 1fr) !important;
+        grid-auto-rows: 200px !important;
+    }
+    .item-5 {
+        grid-column: span 1 !important;
+    }
+}
+
+/* Кастомний оверлей з ефектом "наїзду" зверху */
+.custom-overlay {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Чорний колір, 0.7 - ступінь прозорості (можна міняти від 0 до 1) */
+    background: rgba(0, 0, 0, 0.5) !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+
+    /* Початкова позиція: зміщуємо вгору на 100% висоти */
+    transform: translateY(-100%);
+
+    /* Плавність переходу для появи та руху */
+    transition: opacity 0.4s ease, transform 0.4s ease !important;
+    z-index: 2;
+}
+
+/* Стан при наведенні на картку */
+.grid-item:hover .custom-overlay {
+    opacity: 1;
+    /* Повертаємо оверлей на місце (в центр) */
+    transform: translateY(0);
+}
+
+/* Стиль іконки всередині (опціонально) */
+.custom-overlay i {
+    color: #ffffff;
+    font-size: 30px;
+    /* Можна додати легку тінь для іконки */
+    text-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+.grid-item:hover .custom-overlay {
+    opacity: 1;
+}
+
+.grid-item:hover img {
+    transform: scale(1.1); /* Легкий зум при наведенні */
+}
+
+.custom-overlay i {
+    color: #fff;
+    font-size: 24px;
+}
+/********* Gallery (end) **********/
+/************************************/
+
+/********* Footer (start) **********/
+.hfe-site-logo {
+    width: 180px;
+}

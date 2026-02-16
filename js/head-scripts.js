@@ -92,3 +92,24 @@ jQuery(document).ready(function($) {
         $('.elementor-tabs-wrapper .elementor-tab-title[data-tab="1"]').click();
     }
 });
+
+jQuery(document).ready(function($) {
+    // Ініціалізація лайтбоксу для галереї
+    $('.gallery-lightbox').magnificPopup({
+        delegate: 'a', // елемент, на який клікаємо
+        type: 'image',
+        gallery: {
+            enabled: true, // дозволяємо гортання
+            navigateByImgClick: true,
+            preload: [0,1],
+            tCounter: '<span class="mfp-counter">%curr% з %total%</span>' // лічильник
+        },
+        image: {
+            tError: '<a href="%url%">Зображення</a> не вдалося завантажити.',
+        },
+        mainClass: 'mfp-zoom-in', // анімація появи (якщо підтримується темою)
+        removalDelay: 300,
+        closeOnContentClick: true,
+        closeBtnInside: false // кнопка закриття зовні (зазвичай хрестик зверху праворуч)
+    });
+});
