@@ -3,75 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="848f7713-4da1-4ef8-8493-96b013c0b48f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/custom-header.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom-styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fontawesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fontawesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fontawesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fontawesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/frontend.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/frontend.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/frontend.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/frontend.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/post-147.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/post-147.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/post-21.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/post-21.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/post-5298.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/post-5298.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/post-7.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/post-7.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/plugins/contact-form-7/includes/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/plugins/contact-form-7/includes/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/plugins/contact-form-7/includes/swv/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/plugins/header-footer-elementor/inc/js/frontend.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/plugins/opal-demo/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/plugins/revslider/sr6/assets/css/rs6.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/themes/demo-child/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/themes/luxtower/assets/css/base/elementor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/themes/luxtower/assets/css/base/gutenberg-blocks.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/themes/luxtower/assets/css/base/slick-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/themes/luxtower/assets/css/base/slick.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/themes/luxtower/assets/css/libs/jquery.scrollbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/themes/luxtower/assets/css/libs/magnific-popup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/themes/luxtower/assets/js/elementor-frontend.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/themes/luxtower/assets/js/elementor/brand.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/themes/luxtower/assets/js/elementor/button.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/themes/luxtower/assets/js/elementor/image-gallery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/themes/luxtower/assets/js/elementor/image-hotspots.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/themes/luxtower/assets/js/elementor/property-tab.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/themes/luxtower/assets/js/elementor/testimonial.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/themes/luxtower/assets/js/elementor/video.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/themes/luxtower/assets/js/frontend/login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/themes/luxtower/assets/js/frontend/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/themes/luxtower/assets/js/frontend/nav-mobile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/themes/luxtower/assets/js/frontend/search-popup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/themes/luxtower/assets/js/frontend/text-editor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/themes/luxtower/assets/js/jquery.hoverdir.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/themes/luxtower/assets/js/modernizr.custom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/themes/luxtower/assets/js/tooltipster.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/themes/luxtower/assets/js/vendor/jarallax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/themes/luxtower/assets/js/vendor/jquery.sticky.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/themes/luxtower/inc/megamenu/assets/js/frontend.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/themes/luxtower/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/uploads/elementor/css/post-147.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/uploads/elementor/css/post-21.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/uploads/elementor/css/post-5298.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/uploads/elementor/css/post-7.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/cache/min/1/luxtower/wp-content/uploads/elementor/css/post-888.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/sr6/assets/assets/coloredbg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/sr6/assets/assets/gridtile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/sr6/assets/assets/gridtile_3x3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/sr6/assets/assets/gridtile_3x3_white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/sr6/assets/assets/gridtile_white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/sr6/assets/assets/loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/sr6/assets/css/closedhand.cur" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/sr6/assets/css/openhand.cur" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/sr6/assets/fonts/revicons/revicons.eot?5510888" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/sr6/assets/fonts/revicons/revicons.svg?5510888" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/sr6/assets/fonts/revicons/revicons.ttf?5510888" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/revslider/sr6/assets/fonts/revicons/revicons.woff?5510888" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-rocket/assets/js/lazyload/16.1/lazyload.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/dist/hooks.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/dist/i18n.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/jquery/jquery-migrate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/jquery/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/jquery/ui/core.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/underscore.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-includes/js/wp-util.min.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,21 +23,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ValentineG"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ValentineG&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ValentineG/terra-nova.git",
-    "accountId": "5d931bf6-c722-45ce-b5f6-45df7969be43"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ValentineG/terra-nova.git&quot;,
+    &quot;accountId&quot;: &quot;5d931bf6-c722-45ce-b5f6-45df7969be43&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="39exyrKrl37e1aK1Y0giuxwpu8d" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -109,6 +51,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "settings.editor.selected.configurable": "configurable.group.editor"
   }

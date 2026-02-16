@@ -70,7 +70,7 @@ dfn {
     font-style: italic;
 }
 h1 {
-    font-size: 2em;
+    font-size: 1em;
     margin: .67em 0;
 }
 mark {
@@ -181,21 +181,21 @@ td, th {
     --e-global-color-dark: #2C3246;
     --e-global-color-border: #E0E0E0;
     --e-global-color-background: #ffffff;
-    --e-global-typography-primary-font-family: Plus Jakarta Sans,  HelveticaNeue-Light,  Helvetica Neue Light,  Helvetica Neue,  Helvetica,  Arial,  Lucida Grande,  sans-serif;
+    --e-global-typography-primary-font-family: Onest,  HelveticaNeue-Light,  Helvetica Neue Light,  Helvetica Neue,  Helvetica,  Arial,  Lucida Grande,  sans-serif;
     --e-global-typography-primary-font-weight: 600;
     --e-global-typography-primary-text-transform: none;
     --e-global-typography-primary-font-style: normal;
     --e-global-typography-primary-text-decoration: none;
     --e-global-typography-primary-letter-spacing: 0;
     --e-global-typography-primary-line-height: 1.65;
-    --e-global-typography-secondary-font-family: Plus Jakarta Sans,  HelveticaNeue-Light,  Helvetica Neue Light,  Helvetica Neue,  Helvetica,  Arial,  Lucida Grande,  sans-serif;
+    --e-global-typography-secondary-font-family: Onest,  HelveticaNeue-Light,  Helvetica Neue Light,  Helvetica Neue,  Helvetica,  Arial,  Lucida Grande,  sans-serif;
     --e-global-typography-secondary-font-weight: 600;
     --e-global-typography-secondary-text-transform: none;
     --e-global-typography-secondary-font-style: normal;
     --e-global-typography-secondary-text-decoration: none;
     --e-global-typography-secondary-letter-spacing: 0;
     --e-global-typography-secondary-line-height: 1.65;
-    --e-global-typography-text-font-family: Plus Jakarta Sans,  HelveticaNeue-Light,  Helvetica Neue Light,  Helvetica Neue,  Helvetica,  Arial,  Lucida Grande,  sans-serif;
+    --e-global-typography-text-font-family: Onest,  HelveticaNeue-Light,  Helvetica Neue Light,  Helvetica Neue,  Helvetica,  Arial,  Lucida Grande,  sans-serif;
     --e-global-typography-text-font-weight: 400;
     --e-global-typography-text-font-size: 15px;
     --e-global-typography-text-text-transform: none;
@@ -203,7 +203,7 @@ td, th {
     --e-global-typography-text-text-decoration: none;
     --e-global-typography-text-letter-spacing: 0;
     --e-global-typography-text-line-height: 1.725;
-    --e-global-typography-accent-font-family: Plus Jakarta Sans,  HelveticaNeue-Light,  Helvetica Neue Light,  Helvetica Neue,  Helvetica,  Arial,  Lucida Grande,  sans-serif;
+    --e-global-typography-accent-font-family: Onest,  HelveticaNeue-Light,  Helvetica Neue Light,  Helvetica Neue,  Helvetica,  Arial,  Lucida Grande,  sans-serif;
     --e-global-typography-accent-font-weight: 600;
     --e-global-typography-accent-text-transform: none;
     --e-global-typography-accent-font-style: normal;
@@ -260,7 +260,7 @@ h1, .alpha {
 h2, .beta {
     font-size: 2.25rem;
     line-height: 1.225;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
 }
 h3, .gamma {
     font-size: 1.875rem;

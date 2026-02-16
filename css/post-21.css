@@ -66,12 +66,10 @@
 }
 .elementor-21 .elementor-element.elementor-element-6c6be80 .elementor-heading-title {
     color: #FFF;
-    font-family: "Plus Jakarta Sans", Sans-serif;
     font-size: 16px;
     font-weight: 600;
-    text-transform: capitalize;
     line-height: 30px;
-    letter-spacing: -1px;
+    letter-spacing: 0;
 }
 .elementor-21 .elementor-element.elementor-element-a911056>.elementor-widget-container {
     margin: 15px 0 0 0;
@@ -81,11 +79,11 @@
 }
 .elementor-21 .elementor-element.elementor-element-a911056 .elementor-heading-title {
     color: #FFF;
-    font-family: "Plus Jakarta Sans", Sans-serif;
-    font-size: 48px;
+    font-family: "Onest", Sans-serif;
+    font-size: 38px;
     font-weight: 600;
-    text-transform: capitalize;
-    letter-spacing: -3px;
+    line-height: 1.1;
+    letter-spacing: -1px;
 }
 .elementor-21 .elementor-element.elementor-element-ddb7319:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap, .elementor-21 .elementor-element.elementor-element-ddb7319>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #8B8570;
@@ -185,7 +183,7 @@ body:not(.rtl) .elementor-21 .elementor-element.elementor-element-5599134 .eleme
     transform: rotate(0deg);
 }
 .elementor-21 .elementor-element.elementor-element-5599134 .elementor-icon-list-item>.elementor-icon-list-text, .elementor-21 .elementor-element.elementor-element-5599134 .elementor-icon-list-item>a {
-    font-family: "Plus Jakarta Sans", Sans-serif;
+    font-family: "Onest", Sans-serif;
     font-size: 18px;
     font-weight: 600;
     line-height: 30px;
@@ -242,7 +240,7 @@ body:not(.rtl) .elementor-21 .elementor-element.elementor-element-dfb91c5 .eleme
     transform: rotate(0deg);
 }
 .elementor-21 .elementor-element.elementor-element-dfb91c5 .elementor-icon-list-item>.elementor-icon-list-text, .elementor-21 .elementor-element.elementor-element-dfb91c5 .elementor-icon-list-item>a {
-    font-family: "Plus Jakarta Sans", Sans-serif;
+    font-family: "Onest", Sans-serif;
     font-size: 18px;
     font-weight: 600;
     line-height: 30px;
@@ -299,7 +297,7 @@ body:not(.rtl) .elementor-21 .elementor-element.elementor-element-a3906f4 .eleme
     transform: rotate(0deg);
 }
 .elementor-21 .elementor-element.elementor-element-a3906f4 .elementor-icon-list-item>.elementor-icon-list-text, .elementor-21 .elementor-element.elementor-element-a3906f4 .elementor-icon-list-item>a {
-    font-family: "Plus Jakarta Sans", Sans-serif;
+    font-family: "Onest", Sans-serif;
     font-size: 18px;
     font-weight: 600;
     line-height: 30px;
@@ -372,12 +370,10 @@ body.rtl .elementor-21 .elementor-element.elementor-element-3792438 {
     text-align: center;
 }
 .elementor-21 .elementor-element.elementor-element-b2dd0f8 .elementor-heading-title {
-    font-family: "Plus Jakarta Sans", Sans-serif;
     font-size: 16px;
     font-weight: 600;
-    text-transform: capitalize;
     line-height: 18px;
-    letter-spacing: -1px;
+    letter-spacing: 0;
 }
 .elementor-21 .elementor-element.elementor-element-433c67d {
     width: var(--container-widget-width, 400px);
@@ -391,12 +387,10 @@ body.rtl .elementor-21 .elementor-element.elementor-element-3792438 {
 }
 .elementor-21 .elementor-element.elementor-element-433c67d .elementor-heading-title {
     color: var(--e-global-color-secondary);
-    font-family: "Plus Jakarta Sans", Sans-serif;
+    font-family: "Onest", Sans-serif;
     font-size: 48px;
     font-weight: 600;
-    text-transform: capitalize;
-    line-height: 52px;
-    letter-spacing: -3px;
+    line-height: 1.1;
 }
 .elementor-21 .elementor-element.elementor-element-2c3aace {
     color: var(--e-global-color-text);
@@ -459,11 +453,9 @@ body.rtl .elementor-21 .elementor-element.elementor-element-3792438 {
     fill: var(--e-global-color-secondary);
 }
 .elementor-21 .elementor-element.elementor-element-8df71fc .elementor-accordion-title {
-    font-family: "Plus Jakarta Sans", Sans-serif;
+    font-family: "Onest", Sans-serif;
     font-size: 16px;
     font-weight: 600;
-    text-transform: capitalize;
-    letter-spacing: -1px;
 }
 .elementor-21 .elementor-element.elementor-element-8df71fc .elementor-tab-title .elementor-accordion-icon i:before {
     color: var(--e-global-color-secondary);
@@ -479,7 +471,7 @@ body.rtl .elementor-21 .elementor-element.elementor-element-3792438 {
 }
 .elementor-21 .elementor-element.elementor-element-8df71fc .elementor-tab-content {
     color: var(--e-global-color-text);
-    font-family: "Plus Jakarta Sans", Sans-serif;
+    font-family: "Onest", Sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 25px;
@@ -544,11 +536,9 @@ body.rtl .elementor-21 .elementor-element.elementor-element-3792438 {
 }
 .elementor-21 .elementor-element.elementor-element-f188299 .elementor-heading-title {
     color: #FFF;
-    font-family: "Plus Jakarta Sans", Sans-serif;
     font-size: 16px;
     font-weight: 600;
-    text-transform: capitalize;
-    letter-spacing: -1px;
+    letter-spacing: 0;
 }
 .elementor-21 .elementor-element.elementor-element-7a0c61f>.elementor-widget-container {
     margin: 20px 0 0 0;
@@ -558,11 +548,11 @@ body.rtl .elementor-21 .elementor-element.elementor-element-3792438 {
 }
 .elementor-21 .elementor-element.elementor-element-7a0c61f .elementor-heading-title {
     color: #FFF;
-    font-family: "Plus Jakarta Sans", Sans-serif;
+    font-family: "Onest", Sans-serif;
     font-size: 48px;
     font-weight: 600;
-    text-transform: capitalize;
-    letter-spacing: -3px;
+    line-height: 1.1;
+    letter-spacing: -1px;
 }
 .elementor-21 .elementor-element.elementor-element-a10a7a6>.elementor-element-populated {
     margin: 0 100px 0 0;
@@ -630,15 +620,15 @@ body.rtl .elementor-21 .elementor-element.elementor-element-3792438 {
     border-width: 1px 1px 1px 1px;
 }
 .elementor-21 .elementor-element.elementor-element-6e8dd42 .elementor-icon-box-title, .elementor-21 .elementor-element.elementor-element-6e8dd42 .elementor-icon-box-title a {
-    font-family: "Plus Jakarta Sans", Sans-serif;
+    font-family: "Onest", Sans-serif;
     font-size: 24px;
     font-weight: 600;
-    text-transform: capitalize;
     line-height: 28px;
+    letter-spacing: -1px;
 }
 .elementor-21 .elementor-element.elementor-element-6e8dd42 .elementor-icon-box-description {
     color: #FFF;
-    font-family: "Plus Jakarta Sans", Sans-serif;
+    font-family: "Onest", Sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 26px;
@@ -682,15 +672,15 @@ body.rtl .elementor-21 .elementor-element.elementor-element-3792438 {
     border-width: 1px 1px 1px 1px;
 }
 .elementor-21 .elementor-element.elementor-element-a1b0ee7 .elementor-icon-box-title, .elementor-21 .elementor-element.elementor-element-a1b0ee7 .elementor-icon-box-title a {
-    font-family: "Plus Jakarta Sans", Sans-serif;
+    font-family: "Onest", Sans-serif;
     font-size: 24px;
     font-weight: 600;
-    text-transform: capitalize;
     line-height: 28px;
+    letter-spacing: -1px;
 }
 .elementor-21 .elementor-element.elementor-element-a1b0ee7 .elementor-icon-box-description {
     color: #FFF;
-    font-family: "Plus Jakarta Sans", Sans-serif;
+    font-family: "Onest", Sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 26px;
@@ -747,15 +737,15 @@ body.rtl .elementor-21 .elementor-element.elementor-element-3792438 {
     border-width: 1px 1px 1px 1px;
 }
 .elementor-21 .elementor-element.elementor-element-b7277db .elementor-icon-box-title, .elementor-21 .elementor-element.elementor-element-b7277db .elementor-icon-box-title a {
-    font-family: "Plus Jakarta Sans", Sans-serif;
+    font-family: "Onest", Sans-serif;
     font-size: 24px;
     font-weight: 600;
-    text-transform: capitalize;
     line-height: 28px;
+    letter-spacing: -1px;
 }
 .elementor-21 .elementor-element.elementor-element-b7277db .elementor-icon-box-description {
     color: #FFF;
-    font-family: "Plus Jakarta Sans", Sans-serif;
+    font-family: "Onest", Sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 26px;
@@ -799,15 +789,15 @@ body.rtl .elementor-21 .elementor-element.elementor-element-3792438 {
     border-width: 1px 1px 1px 1px;
 }
 .elementor-21 .elementor-element.elementor-element-06e555b .elementor-icon-box-title, .elementor-21 .elementor-element.elementor-element-06e555b .elementor-icon-box-title a {
-    font-family: "Plus Jakarta Sans", Sans-serif;
+    font-family: "Onest", Sans-serif;
     font-size: 24px;
     font-weight: 600;
-    text-transform: capitalize;
     line-height: 28px;
+    letter-spacing: -1px;
 }
 .elementor-21 .elementor-element.elementor-element-06e555b .elementor-icon-box-description {
     color: #FFF;
-    font-family: "Plus Jakarta Sans", Sans-serif;
+    font-family: "Onest", Sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 26px;
@@ -885,7 +875,7 @@ body.rtl .elementor-21 .elementor-element.elementor-element-3792438 {
     margin: 0 0 25px 0;
 }
 .elementor-21 .elementor-element.elementor-element-c35cd29 .elementor-heading-title {
-    font-family: "Plus Jakarta Sans", Sans-serif;
+    font-family: "Onest", Sans-serif;
     font-size: 16px;
     font-weight: 600;
     text-transform: capitalize;
@@ -899,7 +889,7 @@ body.rtl .elementor-21 .elementor-element.elementor-element-3792438 {
 }
 .elementor-21 .elementor-element.elementor-element-7a75ebd .elementor-heading-title {
     color: var(--e-global-color-secondary);
-    font-family: "Plus Jakarta Sans", Sans-serif;
+    font-family: "Onest", Sans-serif;
     font-size: 48px;
     font-weight: 600;
     text-transform: capitalize;
@@ -986,7 +976,7 @@ body.rtl .elementor-21 .elementor-element.elementor-element-3792438 {
     margin: 0 0 25px 0;
 }
 .elementor-21 .elementor-element.elementor-element-cc61283 .elementor-heading-title {
-    font-family: "Plus Jakarta Sans", Sans-serif;
+    font-family: "Onest", Sans-serif;
     font-size: 16px;
     font-weight: 600;
     text-transform: capitalize;
@@ -1000,7 +990,7 @@ body.rtl .elementor-21 .elementor-element.elementor-element-3792438 {
 }
 .elementor-21 .elementor-element.elementor-element-d722583 .elementor-heading-title {
     color: var(--e-global-color-secondary);
-    font-family: "Plus Jakarta Sans", Sans-serif;
+    font-family: "Onest", Sans-serif;
     font-size: 48px;
     font-weight: 600;
     text-transform: capitalize;
@@ -1038,7 +1028,7 @@ body.rtl .elementor-21 .elementor-element.elementor-element-3792438 {
     max-width: 150px;
     --container-widget-width: 150px;
     --container-widget-flex-grow: 0;
-    font-family: "Plus Jakarta Sans", Sans-serif;
+    font-family: "Onest", Sans-serif;
     font-size: 12px;
     font-weight: 600;
     text-transform: uppercase;
@@ -1205,7 +1195,7 @@ body.rtl .elementor-21 .elementor-element.elementor-element-9545da5 {
 }
 .elementor-21 .elementor-element.elementor-element-ab7b752 .elementor-heading-title {
     color: var(--e-global-color-dark);
-    font-family: "Plus Jakarta Sans", Sans-serif;
+    font-family: "Onest", Sans-serif;
     font-size: 24px;
     font-weight: 600;
     text-transform: capitalize;
