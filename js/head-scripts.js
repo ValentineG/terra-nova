@@ -45,3 +45,24 @@ jQuery(document).ready(function($) {
         }
     });
 });
+
+// Tooltips for the map
+jQuery(document).ready(function($) {
+    // Шукаємо всі маркери на карті
+    $('.opal-image-hotspots-main-icons').each(function() {
+        var contentSelector = $(this).attr('data-tooltip-content');
+        var $tooltipContent = $(contentSelector).clone().show(); // Беремо контент з прихованого блоку
+
+        $(this).tooltipster({
+            content: $tooltipContent,
+            contentCloning: true,
+            interactive: true,
+            animation: 'fade',
+            delay: 100,
+            theme: 'tooltipster-light', // або ваша тема
+            trigger: 'click', // поява по кліку
+            maxWidth: 325,
+            side: 'top'
+        });
+    });
+});

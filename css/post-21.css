@@ -376,9 +376,9 @@ body.rtl .elementor-21 .elementor-element.elementor-element-3792438 {
     letter-spacing: 0;
 }
 .elementor-21 .elementor-element.elementor-element-433c67d {
-    width: var(--container-widget-width, 400px);
+    /*width: var(--container-widget-width, 400px);
     max-width: 400px;
-    --container-widget-width: 400px;
+    --container-widget-width: 400px;*/
     --container-widget-flex-grow: 0;
     text-align: left;
 }
@@ -387,7 +387,6 @@ body.rtl .elementor-21 .elementor-element.elementor-element-3792438 {
 }
 .elementor-21 .elementor-element.elementor-element-433c67d .elementor-heading-title {
     color: var(--e-global-color-secondary);
-    font-family: "Onest", Sans-serif;
     font-size: 48px;
     font-weight: 600;
     line-height: 1.1;
