@@ -162,11 +162,47 @@ h1 {
 /************************************/
 
 /************************************/
-/********* Tooltips (start) **********/
+/********* Building Plan (start) **********/
 
-.tooltipster-content {
-    background: #FFF;
+/* Ховаємо весь контент табів за замовчуванням */
+.elementor-tabs-content-wrapper .elementor-tab-content {
+    display: none;
 }
 
-/********* Tooltips (end) **********/
+/* Показуємо лише той контент, який має клас elementor-active */
+.elementor-tabs-content-wrapper .elementor-tab-content.elementor-active {
+    display: block !important;
+}
+
+/* Приховуємо дублюючі мобільні заголовки всередині контенту, якщо вони заважають */
+.elementor-tabs-content-wrapper .elementor-tab-title.elementor-tab-mobile-title {
+    display: none;
+}
+
+/* Стиль для активної кнопки (курсор та підсвітка) */
+.elementor-tab-desktop-title {
+    cursor: pointer;
+}
+/* Таби (Studio Apartments, Penthouses тощо) */
+.elementor-tab-title {
+    cursor: pointer !important;
+}
+
+/* Заголовки акордеона (01. Building the future...) */
+.elementor-accordion-item .elementor-tab-title {
+    cursor: pointer !important;
+}
+
+/* Маркери на карті (Hotspots) */
+.opal-image-hotspots-icon,
+.opal-image-hotspots-main-icons {
+    cursor: pointer !important;
+}
+
+/* Ефекти наведення для табів (опціонально, для краси) */
+.elementor-tab-title:hover .title {
+    color: #c78960; /* Золотистий колір вашої теми */
+    transition: color 0.3s ease;
+}
+/********* Building Plan (end) **********/
 /************************************/

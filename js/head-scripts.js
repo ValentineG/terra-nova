@@ -66,3 +66,29 @@ jQuery(document).ready(function($) {
         });
     });
 });
+
+// Building Plan Tabs
+jQuery(document).ready(function($) {
+    // Обробник кліку на заголовок табу
+    $('.elementor-tabs-wrapper .elementor-tab-title').on('click', function() {
+        var $tabsWrapper = $(this).closest('.elementor-tabs');
+        var tabIndex = $(this).attr('data-tab'); // Отримуємо номер табу (1, 2, 3...)
+
+        // 1. Знімаємо активний клас з усіх кнопок і ставимо на натиснуту
+        $tabsWrapper.find('.elementor-tab-title').removeClass('elementor-active');
+        $(this).addClass('elementor-active');
+
+        // 2. Ховаємо весь контент і показуємо той, що відповідає індексу
+        $tabsWrapper.find('.elementor-tab-content').removeClass('elementor-active').hide();
+
+        // Знаходимо контент за індексом і плавно показуємо
+        $tabsWrapper.find('.elementor-tab-content[data-tab="' + tabIndex + '"]')
+            .addClass('elementor-active')
+            .fadeIn(400);
+    });
+
+    // Ініціалізація: показуємо перший таб при завантаженні, якщо нічого не вибрано
+    if (!$('.elementor-tabs-wrapper .elementor-tab-title.elementor-active').length) {
+        $('.elementor-tabs-wrapper .elementor-tab-title[data-tab="1"]').click();
+    }
+});
