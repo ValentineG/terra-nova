@@ -39,4 +39,14 @@ jobs:
 
       - name: Deploy with rsync
         run: |
-          rsync -avz --rsh="ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no -o IdentitiesOnly=yes" ./dist/ ka484315@ka484315.ftp.tools:/home/ka484315/bantaiestatevillas.com/terra-nova/
+          # 1. Створюємо чисту папку SSH
+          mkdir -p ~/.ssh
+          
+          # 2. Записуємо ключ прямо в файл (це гарантує відсутність сторонніх ключів в агенті)
+          echo "${{ secrets.TERRANOVA }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          
+          # 3. Виконуємо rsync з жорсткими налаштуваннями
+          # -o PreferredAuthentications=publickey — забороняє будь-що, крім ключа
+          # -o IdentitiesOnly=yes — забороняє використовувати будь-які ключі, крім вказаного через -i
+          rsync -avz -e "ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=no -o IdentitiesOnly=yes -o PreferredAuthentications=publickey" ./dist/ ka484315@ka484315.ftp.tools:/home/ka484315/bantaiestatevillas.com/terra-nova/
