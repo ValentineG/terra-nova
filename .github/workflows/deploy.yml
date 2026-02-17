@@ -31,4 +31,4 @@ jobs:
       - name: Deploy with rsync
         run: |
           # Ми відправляємо ТІЛЬКИ вміст папки dist
-          rsync -avz -e "ssh -o StrictHostKeyChecking=no" ./dist/ ka484315@ka484315.ftp.tools:/home/ka484315/bantaiestatevillas.com/terra-nova/
+          rsync -avz -e "ssh -o StrictHostKeyChecking=no -o IdentitiesOnly=yes" ./dist/ ka484315@ka484315.ftp.tools:/home/ka484315/bantaiestatevillas.com/terra-nova/
