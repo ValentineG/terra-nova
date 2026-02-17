@@ -30,5 +30,10 @@ jobs:
 
       - name: Deploy with rsync
         run: |
+          # Створюємо папку для ключа
+          mkdir -p ~/.ssh
+          # Записуємо ключ у файл прямо з Secrets
+          echo "${{ secrets.TERRANOVA }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
           # Ми відправляємо ТІЛЬКИ вміст папки dist
-          rsync -avz -e "ssh -o StrictHostKeyChecking=no -o IdentitiesOnly=yes -i ~/.ssh/id_rsa" ./dist/ ka484315@ka484315.ftp.tools:/home/ka484315/bantaiestatevillas.com/terra-nova/
+          rsync -avz -e "ssh -o StrictHostKeyChecking=no -o IdentitiesOnly=yes -o PreferredAuthentications=publickey -i ~/.ssh/id_rsa" ./dist/ ka484315@ka484315.ftp.tools:/home/ka484315/bantaiestatevillas.com/terra-nova/
