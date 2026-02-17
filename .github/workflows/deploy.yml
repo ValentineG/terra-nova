@@ -26,17 +26,17 @@ jobs:
         uses: shimataro/ssh-key-action@v2
         with:
           key: ${{ secrets.TERRANOVA }}
+          name: id_rsa
           known_hosts: unnecessary_for_now_but_recommended
 
       - name: Fix SSH key permissions
         run: chmod 600 ~/.ssh/id_rsa
-        
+
+      - name: Test SSH connection with verbose output
+        run: |
+          ssh-keyscan -t rsa ka484315.ftp.tools >> ~/.ssh/known_hosts 2>/dev/null
+          ssh -vvv -i ~/.ssh/id_rsa -o PreferredAuthentications=publickey -o IdentitiesOnly=yes ka484315@ka484315.ftp.tools "ls -la ~/" || true
+
       - name: Deploy with rsync
         run: |
-          # Створюємо папку для ключа
-          mkdir -p ~/.ssh
-          # Записуємо ключ у файл прямо з Secrets
-          echo "${{ secrets.TERRANOVA }}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          # Ми відправляємо ТІЛЬКИ вміст папки dist
-          rsync -avz -e "ssh -o StrictHostKeyChecking=no -o IdentitiesOnly=yes -o PreferredAuthentications=publickey -i ~/.ssh/id_rsa" ./dist/ ka484315@ka484315.ftp.tools:/home/ka484315/bantaiestatevillas.com/terra-nova/
+          rsync -avz --rsh="ssh -i ~/.ssh/id_rsa -o StrictHostKeyChecking=no -o IdentitiesOnly=yes" ./dist/ ka484315@ka484315.ftp.tools:/home/ka484315/bantaiestatevillas.com/terra-nova/
