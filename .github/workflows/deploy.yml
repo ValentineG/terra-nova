@@ -21,4 +21,4 @@ jobs:
 
       - name: Deploy with rsync
         run: |
-          rsync -avz -e "ssh -o StrictHostKeyChecking=no" ./ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/home/ka484315/bantaiestatevillas.com/terra-nova/
+          rsync -avz -e "ssh -o StrictHostKeyChecking=no" ./ ka484315@185.117.155.10:/home/ka484315/www/bantaiestatevillas.com/terra-nova/
