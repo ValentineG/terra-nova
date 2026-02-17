@@ -93,6 +93,7 @@ jQuery(document).ready(function($) {
     }
 });
 
+// Gallery
 jQuery(document).ready(function($) {
     // Ініціалізація лайтбоксу для галереї
     $('.gallery-lightbox').magnificPopup({
@@ -112,4 +113,16 @@ jQuery(document).ready(function($) {
         closeOnContentClick: true,
         closeBtnInside: false // кнопка закриття зовні (зазвичай хрестик зверху праворуч)
     });
+});
+
+// Rev Slider loading
+
+jQuery(document).ready(function($) {
+    var checkRevSlider = setInterval(function() {
+        // Перевіряємо, чи з'явився внутрішній контейнер слайдера (це ознака ініціалізації)
+        if ($('#rev_slider_3_1').hasClass('revslider-initialised') || $('.tp-revslider-mainul').length) {
+            $('#rev_slider_3_1_wrapper').addClass('revslider-initialised');
+            clearInterval(checkRevSlider);
+        }
+    }, 100); // Перевіряємо кожні 100мс
 });
