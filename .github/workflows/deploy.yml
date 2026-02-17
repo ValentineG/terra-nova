@@ -28,6 +28,9 @@ jobs:
           key: ${{ secrets.TERRANOVA }}
           known_hosts: unnecessary_for_now_but_recommended
 
+      - name: Fix SSH key permissions
+        run: chmod 600 ~/.ssh/id_rsa
+        
       - name: Deploy with rsync
         run: |
           # Створюємо папку для ключа
