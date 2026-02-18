@@ -2,9 +2,16 @@ To build the project
 ----
 npm run build
 ----
-
+-----------------------------
 To run the app
 ----
 npm run dev
 ----
+-----------------------------
+
+DEPOYMENT
+npm run build
+git add .
+git commit -m "опис того, що ти змінив"
+git push
 
