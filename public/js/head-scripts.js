@@ -126,3 +126,31 @@ jQuery(document).ready(function($) {
         }
     }, 100); // Перевіряємо кожні 100мс
 });
+
+// Slick slider for Infra section on Main
+jQuery(document).ready(function($) {
+    $('.neighborhood-slick').slick({
+        slidesToShow: 2.5,  // Показуємо 2 з половиною слайди
+        slidesToScroll: 1,
+        infinite: true,
+        adaptiveHeight: false,
+        arrows: true,
+        prevArrow: $('.slick-prev-custom'),
+        nextArrow: $('.slick-next-custom'),
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2.1
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1.2, // На мобільних бачимо край наступного
+                    arrows: true
+                }
+            }
+        ]
+    });
+});
