@@ -1,37 +1,45 @@
 (function($) {
+    "use strict";
     $(function() {
-        $('.main-navigation .has-mega-menu.has-stretchwidth').hover(function(e) {
-            let $body=$('body'), pleft=$(this).offset().left, bodyleft=$body.offset().left;
-            $('.mega-stretchwidth', this).css( {
-                left: -pleft+bodyleft,
-                width:$body.width() // Тут була кома або нічого не треба, Vite ок
+        // Мега-меню на всю ширину екрана
+        $('.main-navigation .has-mega-menu.has-stretchwidth').hover(function() {
+            let $body = $('body'),
+                pleft = $(this).offset().left,
+                bodyleft = $body.offset().left;
+
+            $('.mega-stretchwidth', this).css({
+                left: -pleft + bodyleft,
+                width: $body.width()
             });
         });
 
-        $('.main-navigation .has-mega-menu.has-containerwidth').hover(function(e) {
-            let $parent=$(this).closest('.container , .elementor-container, .col-full, .header-container'),
-                pleft=$parent.offset().left+parseInt($parent.css('padding-left')),
-                cleft=$(this).offset().left;
-            $('.mega-containerwidth', this).css( {
-                left: pleft-cleft,
-                width:$parent.width() // ВИПРАВЛЕНО: замінено ; на , (або просто прибрано)
+        // Мега-меню на ширину контейнера
+        $('.main-navigation .has-mega-menu.has-containerwidth').hover(function() {
+            let $parent = $(this).closest('.container, .elementor-container, .col-full, .header-container'),
+                pleft = $parent.offset().left + parseInt($parent.css('padding-left')),
+                cleft = $(this).offset().left;
+
+            $('.mega-containerwidth', this).css({
+                left: pleft - cleft,
+                width: $parent.width()
             });
         });
 
-        $('.main-navigation .has-mega-menu').has('ul.custom-subwidth').hover(function(e) {
-            let pleft=parseFloat($(this).children('a').css('padding-left')),
-                $oleft=$(this).offset().left+pleft,
-                $itemwidth=parseInt($(this).children('.custom-subwidth').css('width')),
-                $bodywidth=$('body').width();
-            let $offset=$oleft+$itemwidth-$bodywidth;
+        // Кастомна ширина підменю
+        $('.main-navigation .has-mega-menu').has('ul.custom-subwidth').hover(function() {
+            let pleft = parseFloat($(this).children('a').css('padding-left')),
+                $oleft = $(this).offset().left + pleft,
+                $itemwidth = parseInt($(this).children('.custom-subwidth').css('width')),
+                $bodywidth = $('body').width();
+            let $offset = $oleft + $itemwidth - $bodywidth;
 
-            if($offset>=0) {
-                $('.mega-menu.custom-subwidth', this).css( {
-                    left: -$offset+pleft // ВИПРАВЛЕНО: прибрано ;
+            if ($offset >= 0) {
+                $('.mega-menu.custom-subwidth', this).css({
+                    left: -$offset + pleft
                 });
             } else {
-                $('.mega-menu.custom-subwidth', this).css( {
-                    left: pleft // ВИПРАВЛЕНО: прибрано ;
+                $('.mega-menu.custom-subwidth', this).css({
+                    left: pleft
                 });
             }
         });
