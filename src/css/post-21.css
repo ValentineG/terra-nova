@@ -874,11 +874,9 @@ body.rtl .elementor-21 .elementor-element.elementor-element-3792438 {
     margin: 0 0 25px 0;
 }
 .elementor-21 .elementor-element.elementor-element-c35cd29 .elementor-heading-title {
-    font-family: "Onest", Sans-serif;
     font-size: 16px;
     font-weight: 600;
     text-transform: capitalize;
-    letter-spacing: -1px;
 }
 .elementor-21 .elementor-element.elementor-element-7a75ebd>.elementor-widget-container {
     margin: 0 0 45px 0;
@@ -892,7 +890,6 @@ body.rtl .elementor-21 .elementor-element.elementor-element-3792438 {
     font-size: 48px;
     font-weight: 600;
     text-transform: capitalize;
-    letter-spacing: -3px;
 }
 .elementor-widget-luxtower-property-tabs.elementor-widget-tabs .elementor-tab-title {
     font-family: var(--e-global-typography-accent-font-family), Sans-serif;

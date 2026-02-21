@@ -130,10 +130,11 @@ jQuery(document).ready(function($) {
 // Slick slider for Infra section on Main
 jQuery(document).ready(function($) {
     $('.neighborhood-slick').slick({
-        slidesToShow: 2.5,  // Показуємо 2 з половиною слайди
+        autoplay: true,
+        autoplaySpeed: 3000,
+        slidesToShow: 3,        // Було 2.5 — тепер 3 цілих слайди
         slidesToScroll: 1,
         infinite: true,
-        adaptiveHeight: false,
         arrows: true,
         prevArrow: $('.slick-prev-custom'),
         nextArrow: $('.slick-next-custom'),
@@ -141,14 +142,14 @@ jQuery(document).ready(function($) {
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 2.1
+                    slidesToShow: 2    // Було 2.1 — тепер рівно 2
                 }
             },
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 1.2, // На мобільних бачимо край наступного
-                    arrows: true
+                    slidesToShow: 1,   // Було 1.2 — тепер 1 на весь екран
+                    centerMode: false  // Переконайтеся, що вимкнено, щоб не було "обрізків"
                 }
             }
         ]
