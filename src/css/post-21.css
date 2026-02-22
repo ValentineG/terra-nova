@@ -66,10 +66,9 @@
 }
 .elementor-21 .elementor-element.elementor-element-6c6be80 .elementor-heading-title {
     color: #FFF;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 30px;
-    letter-spacing: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 .elementor-21 .elementor-element.elementor-element-a911056>.elementor-widget-container {
     margin: 15px 0 0 0;
@@ -79,11 +78,8 @@
 }
 .elementor-21 .elementor-element.elementor-element-a911056 .elementor-heading-title {
     color: #FFF;
-    font-family: "Onest", Sans-serif;
-    font-size: 38px;
-    font-weight: 600;
-    line-height: 1.1;
-    letter-spacing: -1px;
+    font-size: 36px;
+    line-height: 1.4;
 }
 .elementor-21 .elementor-element.elementor-element-ddb7319:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap, .elementor-21 .elementor-element.elementor-element-ddb7319>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #8B8570;
@@ -547,11 +543,8 @@ body.rtl .elementor-21 .elementor-element.elementor-element-3792438 {
 }
 .elementor-21 .elementor-element.elementor-element-7a0c61f .elementor-heading-title {
     color: #FFF;
-    font-family: "Onest", Sans-serif;
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 1.1;
-    letter-spacing: -1px;
+    font-size: 36px;
+    line-height: 1.4;
 }
 .elementor-21 .elementor-element.elementor-element-a10a7a6>.elementor-element-populated {
     margin: 0 100px 0 0;
