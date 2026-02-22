@@ -18,6 +18,7 @@
 
 .elementor-icon-list-item {
     padding: 8px 16px!Important;
+    list-style: none;
 }
 
 .section-subtitle-white {
@@ -488,7 +489,7 @@ h1 {
 .services-section {
     background-color: #8b8570; /* Ваш оливковий колір з фото */
     width: 100%;
-    padding: 100px 0;
+    padding: 140px 20px;
     color: #ffffff;
 }
 
@@ -563,7 +564,7 @@ h1 {
 }
 
 .service-list i {
-    font-size: 12px;
+    font-size: 16px;
     margin-top: 4px;
 }
 
