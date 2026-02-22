@@ -184,3 +184,25 @@ jQuery(document).ready(function($) {
         ]
     });
 });
+
+// VIEW Location section slider
+jQuery(document).ready(function($) {
+    var $viewsSlider = $('.views-slick');
+
+    $viewsSlider.slick({
+        slidesToShow: 1,
+        infinite: true,
+        autoplay: false,
+        fade: true, // Плавне зникнення замість прокрутки
+        cssEase: 'linear',
+        arrows: true,
+        prevArrow: $('.view-prev-btn'),
+        nextArrow: $('.view-next-btn')
+    });
+
+    // Оновлення тексту в білому блоці при зміні слайда
+    $viewsSlider.on('afterChange', function(event, slick, currentSlide) {
+        var directions = ['East', 'West', 'North', 'South'];
+        $('.view-direction-text').text(directions[currentSlide]);
+    });
+});
