@@ -695,7 +695,7 @@ h1 {
 /* Контейнер, який прибирає зайві відступи Elementor */
 .custom-gallery-container {
     width: 100% !important;
-    padding: 20px 0 !important;
+    padding: 20px 40px !important;
     margin-bottom: 120px;
 }
 
