@@ -206,3 +206,13 @@ jQuery(document).ready(function($) {
         $('.view-direction-text').text(directions[currentSlide]);
     });
 });
+
+// Schedule a call button
+jQuery(document).ready(function($) {
+    $('.open-popup-link').magnificPopup({
+        type: 'inline',
+        midClick: true, // Дозволяє відкривати при кліку середньою кнопкою миші
+        mainClass: 'mfp-zoom-in', // Клас для анімації
+        removalDelay: 300 // Затримка для анімації закриття
+    });
+});

@@ -1555,40 +1555,9 @@ body .luxtower-mobile-nav .luxtower-social ul li a:before {
     visibility: visible;
     opacity: 1;
 }
-.menu-mobile-nav-button {
-    display: block;
-    font-size: 15px;
-    color: var(--e-global-color-secondary);
-}
-@media (min-width:1024px) {
-    .menu-mobile-nav-button {
-    display: none;
-}
-}.menu-mobile-nav-button .luxtower-icon {
-    margin-left: 15px;
-}
-.menu-mobile-nav-button .luxtower-icon>div {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-.menu-mobile-nav-button .luxtower-icon span {
-    display: inline-block;
-    height: 2px;
-    width: 35px;
-    margin-bottom: 9px;
-    transition: all 0.3s ease;
-    background-color: var(--e-global-color-secondary);
-}
-.menu-mobile-nav-button .luxtower-icon .icon-1 {
-    width: 25px;
-}
-.menu-mobile-nav-button .luxtower-icon .icon-2 {
-    margin-bottom: 0;
-}
-.menu-mobile-nav-button:hover .luxtower-icon .icon-1 {
-    width: 35px;
-}
+
+
+
 html {
     overflow-x: hidden;
 }
