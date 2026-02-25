@@ -473,17 +473,27 @@ h1 {
 
 /**************************************************/
 /********* Slider Infrastructure (start) **********/
-.neighborhood { padding: 80px 0; overflow: hidden; }
+.neighborhood {
+    background-color: #8b8570;
+    width: 100%;
+    padding: 140px 20px;
+    color: #ffffff;
+}
 
 /* Шапка блоку (залишаємо як було - текст у дві колонки) */
 .neighborhood__header {
+    color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     margin-bottom: 50px;
 }
 
-.neighborhood__title { font-size: 42px; line-height: 1.2; margin-top: 10px; }
+.neighborhood__title {
+    color: #fff;
+    font-size: 42px;
+    line-height: 1.2; margin-top: 10px;
+}
 .neighborhood__text { max-width: 490px;}
 
 /* Слайди та відступи */
@@ -513,7 +523,7 @@ h1 {
 
 /* ПІДЗАГОЛОВОК ФОТО (Коричневий колір повернено) */
 .neighborhood-slide__caption {
-    color: rgb(102 102 102);
+    color: #fff;
     font-size: 16px;
     font-weight: 600;
     margin-top: 0 !important;
@@ -521,6 +531,7 @@ h1 {
 
 /* Коричнева лінія та Neighborhood (повернено) */
 .neighborhood__subtitle-wrapper {
+    color: #fff;
     display: flex;
     align-items: center;
     gap: 15px;
@@ -531,14 +542,13 @@ h1 {
     display: inline-block;
     width: 40px;
     height: 1px;
-    background-color: #c49a6c;
-    margin-top: -8px;
+    background-color: #fff;
 }
 
 .neighborhood__subtitle {
-    color: #c49a6c;
-    font-weight: 600;
-    text-transform: capitalize;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 /* Кнопки навігації (без чорного фону) */
@@ -553,7 +563,7 @@ h1 {
     border: none !important;
     font-size: 32px !important;
     cursor: pointer;
-    color: #B5B4B9 !important;
+    color: #fff !important;
     padding: 0 !important;
 }
 
