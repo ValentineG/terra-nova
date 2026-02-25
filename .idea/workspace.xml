@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="272d64e5-d416-4023-b300-02ce6f5b23a8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/send-mail.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/revslider.html" beforeDir="false" afterPath="$PROJECT_DIR$/includes/revslider.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/custom-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/custom-styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/post-888.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/post-888.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/head-scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/head-scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

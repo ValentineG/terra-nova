@@ -207,12 +207,45 @@ jQuery(document).ready(function($) {
     });
 });
 
-// Schedule a call button
+// FEEDBACK FORM
 jQuery(document).ready(function($) {
     $('.open-popup-link').magnificPopup({
         type: 'inline',
-        midClick: true, // Дозволяє відкривати при кліку середньою кнопкою миші
-        mainClass: 'mfp-zoom-in', // Клас для анімації
-        removalDelay: 300 // Затримка для анімації закриття
+        midClick: true,
+        mainClass: 'mfp-fade'
+    });
+});
+
+// Sending the FEEDBACK FORM
+document.getElementById('contact-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    const form = this;
+    const resultDiv = document.getElementById('form-result');
+    const btn = form.querySelector('.form-submit-btn');
+    const formData = new FormData(form);
+
+    btn.disabled = true;
+    btn.innerText = 'Sending...';
+
+    fetch('send.php', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.text())
+    .then(data => {
+        resultDiv.style.display = 'block';
+        resultDiv.innerText = data;
+        resultDiv.style.color = '#c78960';
+        form.reset(); // Очищуємо поля
+    })
+    .catch(error => {
+        resultDiv.style.display = 'block';
+        resultDiv.innerText = 'Сталася помилка. Перевірте з’єднання.';
+        resultDiv.style.color = 'red';
+    })
+    .finally(() => {
+        btn.disabled = false;
+        btn.innerText = 'Submit';
     });
 });

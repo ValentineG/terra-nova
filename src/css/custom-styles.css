@@ -239,6 +239,83 @@ body.theme-luxtower [data-elementor-columns-mobile="4"] .column-item{flex: 0 0 2
 /************************************/
 
 
+/*******************************************/
+/******* FEEDBACK MODAL (start) ************/
+/* Контейнер попапу */
+.white-popup {
+    background: #fff;
+    padding: 60px;
+    width: 100%;
+    max-width: 600px;
+    margin: 40px auto;
+    position: relative;
+    text-align: center;
+}
+
+/* Заголовки */
+.white-popup h2 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.form-subtitle {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+/* Поля вводу */
+.custom-form .input-group {
+    margin-bottom: 25px;
+}
+
+.custom-form input,
+.custom-form textarea {
+    width: 100%;
+    padding: 15px 20px;
+    border: 1px solid #e0e0e0;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+.custom-form input:focus,
+.custom-form textarea:focus {
+    border-color: #c78960;
+}
+
+/* Кнопка відправки */
+.form-submit-btn {
+    background-color: #c78960;
+    color: #fff;
+    border: none;
+    padding: 18px 60px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 10px;
+}
+
+.form-submit-btn:hover {
+    background-color: #b07852;
+}
+
+/* Анімація появи (якщо використовуєте Magnific Popup) */
+.mfp-fade.mfp-bg {
+  opacity: 0;
+  transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-bg.mfp-ready {
+  opacity: 0.8;
+}
+/******* FEEDBACK MODAL (end) ************/
+/*******************************************/
+
+
 
 /************************************/
 /*** Rev Slider (start) ************/
