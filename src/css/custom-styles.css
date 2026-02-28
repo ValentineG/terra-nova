@@ -1029,6 +1029,50 @@ h1 {
     width: 100%;  /* Розтягуємо іфрейм на ширину контейнера */
     height: 100%; /* Розтягуємо іфрейм на висоту контейнера */
 }
+.map-container {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background: #f2f2f2; /* Сірий фон, поки вантажиться */
+}
+
+/* Лоадер */
+.map-loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f2f2f2;
+    z-index: 5;
+    transition: opacity 0.5s ease;
+}
+
+/* Коли карта завантажиться, скрипт додасть клас .is-loaded */
+.map-container.is-loaded .map-loader {
+    opacity: 0;
+    pointer-events: none; /* Щоб не перекривати карту після завантаження */
+}
+
+/* Анімація спінера */
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid #ccc;
+    border-top: 3px solid #c78960; /* Колір вашого бренду */
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-bottom: 15px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
 
 /* Картка поверх карти */
 .info-card {
