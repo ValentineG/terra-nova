@@ -19,7 +19,7 @@
 
                 <!-- Main content --->
                 <main id="main" class="site-main" role="main">
-                    <div data-elementor-type="wp-page" data-elementor-id="21" class="elementor elementor-21">
+                    <div class="elementor elementor-21">
 
                         <section class="elementor-section elementor-top-section elementor-element elementor-element-b3bbb20 elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default">
                             <div class="elementor-container elementor-column-gap-no">
@@ -59,20 +59,12 @@
     <!--- INFRASTRUCTURE --->
     <load ="includes/infrastructure.html" />
 
-    <div class="site-content" tabindex="-1">
-        <div class="col-full">
-            <div class="content-area">
-                <main class="site-main" role="main">
-                    <div data-elementor-type="wp-page" class="elementor elementor-21">
-
-                        <!-- Block 4 Floor plans --->
-                        <load ="includes/floors.html" />
-
-                    </div>
-                </main><!-- #main -->
-            </div><!-- #primary -->
-        </div><!-- .col-full -->
-    </div><!-- #content -->
+    <div class="site-content">
+        <div class="content-area elementor-21">
+            <!-- Block 4 Floor plans --->
+            <load ="includes/floors.html" />
+        </div>
+    </div>
 
 
     <!--- SERVICE -->
@@ -84,11 +76,11 @@
     <!-- GALLERY -->
     <load ="includes/gallery.html" />
 
-    <!--- MAP Goofle --->
-    <load ="includes/map_google.html" />
-
     <!--- Enquiry --->
     <load ="includes/enquiry.html" />
+
+    <!--- MAP Goofle --->
+    <load ="includes/map_google.html" />
 
     <!------- Footer ----------------->
     <load ="includes/footer.html" />
