@@ -249,3 +249,24 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
         btn.innerText = 'Submit';
     });
 });
+
+
+// SCROLL TO TOP
+(function($) {
+    'use strict';
+
+    // Скрол до верху сторінки
+    $(window).scroll(function() {
+        if ($(this).scrollTop() > 200) {
+            $('.scrollup').fadeIn().addClass('activate');
+        } else {
+            $('.scrollup').fadeOut().removeClass('activate');
+        }
+    });
+
+    $('.scrollup').on('click', function() {
+        $('html, body').animate({ scrollTop: 0 }, 600);
+        return false;
+    });
+
+})(jQuery);
