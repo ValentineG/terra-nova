@@ -2500,7 +2500,7 @@ article.entry-header {
 }
 }.scrollup {
     position: fixed;
-    bottom: 24px;
+    bottom: 90px;
     right: 24px;
     z-index: 99999;
     padding: 0;

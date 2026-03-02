@@ -1265,17 +1265,134 @@ h1 {
 
 /************************************************/
 /************* Footer (start) ******************/
-/* Основний розмір для комп'ютерів (залишаємо як є або задаємо явно) */
-.hfe-site-logo img {
-    width: 180px;
-    height: auto;
+/* Базові стилі для футера */
+.site-footer {
+    background-color: #ffffff;
+    color: #555555;
+    font-family: sans-serif; /* Замініть на ваш шрифт */
+    padding: 60px 20px 30px;
+    line-height: 1.6;
 }
 
-/* Зменшуємо логотип для мобільних пристроїв (екрани менше 767px) */
-@media (max-width: 767px) {
-    .hfe-site-logo img,
-    .hfe-site-logo {
-        width: 120px !important; /* Налаштуйте ширину, яка вам підходить */
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Скидання базових стилів для посилань і списків */
+.site-footer a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.site-footer a:hover {
+    color: #c08761; /* Колір при наведенні */
+}
+
+/* --- ВЕРХНЯ ЧАСТИНА (Грід 4 колонки) --- */
+.footer-top {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.footer-col h3 {
+    color: #333333;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.footer-col p {
+    margin: 0;
+    font-size: 15px;
+}
+
+/* Стилі для контактів */
+.footer-email {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #333 !important;
+}
+
+.footer-phone {
+    display: block;
+    font-size: 22px;
+    font-weight: 500;
+    color: #c08761 !important; /* Помаранчево-коричневий колір з макету */
+}
+
+/* Стилі для списку посилань */
+.footer-links ul {
+    list-style-type: disc;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+/* --- РОЗДІЛЬНИК --- */
+.footer-divider {
+    border: 0;
+    border-top: 1px solid #eeeeee;
+    margin: 30px 0;
+}
+
+/* --- НИЖНЯ ЧАСТИНА (Флексбокс) --- */
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.footer-copyright p {
+    margin: 0;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-socials a {
+    color: #555;
+    font-size: 16px;
+}
+
+
+/* =========================================
+   АДАПТИВНІСТЬ (Мобільні пристрої)
+   ========================================= */
+@media (max-width: 768px) {
+    .site-footer {
+        padding: 40px 20px 20px;
+    }
+
+    .footer-top {
+        grid-template-columns: 1fr; /* 1 колонка замість 4 */
+        gap: 40px;
+    }
+
+    /* Логотип по центру на мобільному */
+    .footer-logo {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    /* Нижня частина стає вертикальною */
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
     }
 }
 /************* Footer (end) *********************/
