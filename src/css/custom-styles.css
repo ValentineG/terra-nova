@@ -2,12 +2,46 @@
 h2 {
     color: #5a5a5a;
 }
-.white-subtitle {
-    color: #fff;
-    font-size: 18px;
+
+h3 {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 25px;
     font-weight: 600;
-    text-transform: capitalize;
-    letter-spacing: 0px;
+    color: #fff;
+}
+
+p {
+    font-size: 15px;
+}
+
+.dark-section {
+    background-color: #8b8570;
+    width: 100%;
+    padding: 140px 20px;
+    color: #ffffff;
+}
+
+.white-title {
+    color: #fff;
+    font-size: 42px;
+    line-height: 1.2; margin-top: 10px;
+}
+
+.white-left-line {
+    display: inline-block;
+    width: 40px;
+    height: 1px;
+    background-color: #fff;
+    margin-bottom: 22px;
+}
+.white-subtitle {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 20px;
+    opacity: 0.8;
 }
 .white-list-item {
     color: #fff;
@@ -88,7 +122,6 @@ body.theme-luxtower [data-elementor-columns-mobile="4"] .column-item{flex: 0 0 2
 /************************************/
 /******* HEADER (start) ************/
 
-/* --- СТРУКТУРА ХЕДЕРА --- */
 .site-header {
     width: 100%;
     background-color: #fff;
@@ -158,7 +191,6 @@ body.theme-luxtower [data-elementor-columns-mobile="4"] .column-item{flex: 0 0 2
     transition: all 0.3s ease-in-out;
 }
 
-/* Налаштування довжини рисок */
 .line-1 {
     width: 14px; /* ВЕРХНЯ КОРОТША */
 }
@@ -291,7 +323,7 @@ body.theme-luxtower [data-elementor-columns-mobile="4"] .column-item{flex: 0 0 2
 
 /************************************/
 /*** Rev Slider (start) ************/
-/* Резервуємо місце під слайдер, щоб контент не стрибав */
+
 #rev_slider_3_1_wrapper {
     min-height: 572px; /* Висота для великих екранів */
     background-color: #f5f5f5; /* Легкий фон, поки вантажиться фото */
@@ -341,6 +373,7 @@ body.theme-luxtower [data-elementor-columns-mobile="4"] .column-item{flex: 0 0 2
 }
 /********* Block 1 Welcome (end) **********/
 /************************************/
+
 
 /* Примусове вирівнювання контейнера (Заголовок + Карусель) */
 section.elementor-element-4ebc742 .elementor-container {
@@ -396,6 +429,84 @@ h1 {
 /********* Titles (end)  **********/
 /************************************/
 
+
+/****************************************/
+/********* Autonomous Network (Start) **********/
+
+.autonomous-network {
+    background-image: url(/img/h2-bg1.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.features-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Заголовок займає 1 частину, сітка 2 */
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: start;
+}
+
+.features-header h2 {
+    font-size: 42px;
+    line-height: 1.2;
+    margin: 0;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 колонки */
+    gap: 40px;
+}
+
+.icon-frame {
+    width: 80px;
+    height: 80px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+    .icon-frame:hover {
+        fill: #5b5b5b;
+        color: #5b5b5b;
+        border-color: #5b5b5b;
+    }
+
+.feature-card h3 {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}
+
+.feature-card p {
+    line-height: 1.6;
+    margin: 0;
+    opacity: 0.9;
+}
+.feature-card i {
+    font-size: 30px;
+    padding: 35px;
+    border-width: 1px;
+}
+/* Адаптивність для планшетів та мобільних */
+@media (max-width: 992px) {
+    .features-container { grid-template-columns: 1fr; gap: 40px; }
+    .features-header { max-width: 100%; }
+}
+
+@media (max-width: 600px) {
+    .features-grid { grid-template-columns: 1fr; }
+    .autonomous-network {text-align: center;}
+    .icon-frame {margin: 0 auto 25px;}
+    .subtitle-wrapper {justify-content: center;}
+}
+/********* Autonomous Infra (end) **********/
+/******************************************/
+
+
+
 /************************************/
 /********* Building Plan (start) **********/
 
@@ -445,12 +556,6 @@ h1 {
 
 /**************************************************/
 /********* Slider Infrastructure (start) **********/
-.neighborhood {
-    background-color: #8b8570;
-    width: 100%;
-    padding: 140px 20px;
-    color: #ffffff;
-}
 
 /* Шапка блоку (залишаємо як було - текст у дві колонки) */
 .neighborhood__header {
@@ -461,11 +566,6 @@ h1 {
     margin-bottom: 50px;
 }
 
-.neighborhood__title {
-    color: #fff;
-    font-size: 42px;
-    line-height: 1.2; margin-top: 10px;
-}
 .neighborhood__text { max-width: 490px;}
 
 /* Слайди та відступи */
@@ -502,19 +602,12 @@ h1 {
 }
 
 /* Коричнева лінія та Neighborhood (повернено) */
-.neighborhood__subtitle-wrapper {
+.subtitle-wrapper {
     color: #fff;
     display: flex;
     align-items: center;
     gap: 15px;
     margin-bottom: 10px;
-}
-
-.neighborhood__line {
-    display: inline-block;
-    width: 40px;
-    height: 1px;
-    background-color: #fff;
 }
 
 .neighborhood__subtitle {
@@ -550,6 +643,12 @@ h1 {
 }
 /********* Slider Infra (end) ****************/
 /**************************************************/
+
+.floors-section {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 60px;
+}
 
 /**************************************************/
 /********* Slider APARTMENTS (start) *************/
@@ -724,14 +823,6 @@ h1 {
     gap: 30px;
 }
 
-.service-col-title {
-    font-size: 24px;
-    line-height: 28px;
-    margin-bottom: 25px;
-    font-weight: 600;
-    color: #fff;
-}
-
 .service-list {
     list-style: none;
     padding: 0;
@@ -772,9 +863,7 @@ h1 {
 /********* VIEWS LOCATION (start) *****************/
 
 .views-section {
-    /* background-color: #8b8570; */
-    padding-top: 0;           /* Відступ зверху не потрібен */
-    margin-bottom: 120px;    /* Відступ внизу 80px */
+    margin-bottom: 120px;
     width: 100%;
     overflow: hidden;
     padding-top: 60px;
