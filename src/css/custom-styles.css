@@ -1,15 +1,25 @@
 
+/************************************/
+/********* Titles (start) **********/
+
+h1 {
+    font-size: 1.1rem;
+    letter-spacing: 2;
+}
 h2 {
     color: #5a5a5a;
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 18px;
     line-height: 28px;
     margin-bottom: 25px;
     font-weight: 600;
     color: #fff;
 }
+/********* Titles (end)  **********/
+/************************************/
+
 
 p {
     font-size: 15px;
@@ -418,16 +428,85 @@ section.elementor-element-4ebc742 .elementor-brand-item img {
     }
 }
 
-/************************************/
-/********* Titles (start) **********/
 
-h1 {
-    font-size: 1.1rem;
-    letter-spacing: 2;
+
+/************************************/
+/********* LIFESTYLE (start) **********/
+
+.lifestyle-container {
+    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
+    gap: 80px;
 }
 
-/********* Titles (end)  **********/
-/************************************/
+.lifestyle-header { flex: 1; }
+.lifestyle-content { flex: 2; }
+
+.subtitle-wrapper { display: flex; align-items: center; gap: 15px; margin-bottom: 20px; }
+
+.line { width: 40px; height: 1px; background: #fff; }
+.subtitle { font-size: 14px; letter-spacing: 2px; }
+
+h2 { font-size: 48px; line-height: 1.1; margin: 0; }
+.description { margin-bottom: 40px; line-height: 1.6; opacity: 0.9; }
+
+/* Список з послугами */
+.features-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.features-column {
+    list-style: none; /* Прибираємо стандартні крапки */
+    padding: 0;
+    margin: 0;
+}
+
+/* Основні стилі для пунктів списку (li) */
+.features-column li {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #ffffff; /* Початковий колір тексту */
+    transition: color 0.3s ease; /* Плавний перехід кольору тексту */
+    cursor: pointer; /* Додаємо курсор-руку для кращого UX */
+}
+
+/* Стилі для іконки (::before) */
+.features-column li::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url('/src/icons/check-circle-fill.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-shrink: 0;
+
+    /* Початковий стан іконки - білий (через фільтр) */
+    filter: brightness(0) invert(1);
+    transition: filter 0.3s ease; /* Плавний перехід фільтра */
+}
+
+    /* Зміна кольору тексту при наведенні */
+    .features-column li:hover {
+        color: #555555; /* Колір тексту при наведенні */
+    }
+
+        /* Зміна кольору іконки при наведенні на пункт (li) */
+        .features-column li:hover::before {
+            /* Цей фільтр робить іконку сірою (#555) */
+            /* brightness(0) робить чорною, а invert(0.33) наближає до сірого */
+            filter: brightness(0) invert(0.33);
+        }
+
+/* Адаптив */
+@media (max-width: 768px) {
+    .lifestyle-container { flex-direction: column; gap: 40px; }
+}
 
 
 /****************************************/
@@ -475,11 +554,6 @@ h1 {
         border-color: #5b5b5b;
     }
 
-.feature-card h3 {
-    font-size: 18px;
-    margin: 0 0 10px 0;
-}
-
 .feature-card p {
     line-height: 1.6;
     margin: 0;
@@ -497,10 +571,8 @@ h1 {
 }
 
 @media (max-width: 600px) {
-    .features-grid { grid-template-columns: 1fr; }
-    .autonomous-network {text-align: center;}
+    .features-grid { grid-template-columns: 1fr; text-align: center;}
     .icon-frame {margin: 0 auto 25px;}
-    .subtitle-wrapper {justify-content: center;}
 }
 /********* Autonomous Infra (end) **********/
 /******************************************/
