@@ -3,11 +3,14 @@
 /********* Titles (start) **********/
 
 h1 {
-    font-size: 1.1rem;
+    font-size: 32px;
     letter-spacing: 2;
 }
 h2 {
-    color: #5a5a5a;
+    font-size: 32px;
+    color: #1a1a1a;
+    letter-spacing: 0;
+    line-height: 1.2;
 }
 
 h3 {
@@ -34,8 +37,7 @@ p {
 
 .white-title {
     color: #fff;
-    font-size: 32px;
-    line-height: 1.2; margin-top: 10px;
+    margin-top: 10px;
 }
 
 .white-left-line {
@@ -448,7 +450,6 @@ section.elementor-element-4ebc742 .elementor-brand-item img {
 .line { width: 40px; height: 1px; background: #fff; }
 .subtitle { font-size: 14px; letter-spacing: 2px; }
 
-h2 { font-size: 48px; line-height: 1.1; margin: 0; }
 .description { margin-bottom: 40px; line-height: 1.6; opacity: 0.9; }
 
 /* Список з послугами */
@@ -525,12 +526,6 @@ h2 { font-size: 48px; line-height: 1.1; margin: 0; }
     max-width: 1200px;
     margin: 0 auto;
     align-items: start;
-}
-
-.features-header h2 {
-    font-size: 42px;
-    line-height: 1.2;
-    margin: 0;
 }
 
 .features-grid {
@@ -773,8 +768,6 @@ h2 { font-size: 48px; line-height: 1.1; margin: 0; }
 }
 
 .section-title {
-    font-size: 42px;
-    color: #1a1a1a;
     margin-top: 0;
 }
 
@@ -881,12 +874,6 @@ h2 { font-size: 48px; line-height: 1.1; margin: 0; }
     letter-spacing: 1px;
 }
 
-.services-main-title {
-    font-size: 36px;
-    line-height: 1.4;
-    color: #fff;
-}
-
 /* Права частина з колонками */
 .services-grid {
     flex: 0 0 70%;
@@ -923,7 +910,6 @@ h2 { font-size: 48px; line-height: 1.1; margin: 0; }
 
 @media (max-width: 768px) {
     .services-grid { grid-template-columns: 1fr; }
-    .services-main-title { font-size: 28px; }
 }
 /****************** SERVICE (end) *****************/
 /**************************************************/
@@ -1344,9 +1330,7 @@ h2 { font-size: 48px; line-height: 1.1; margin: 0; }
 }
 
 .enquiry-content h2 {
-    font-size: 48px;
     margin-bottom: 50px;
-    color: #fff;
 }
 
 /* Форма */
@@ -1394,8 +1378,6 @@ h2 { font-size: 48px; line-height: 1.1; margin: 0; }
 
 /* АДАПТИВНІСТЬ ДЛЯ МОБІЛЬНОГО */
 @media (max-width: 768px) {
-    .enquiry-content h2 { font-size: 30px; color: #fff;}
-
     .form-row {
         flex-direction: column;
         gap: 30px;
@@ -1404,8 +1386,6 @@ h2 { font-size: 48px; line-height: 1.1; margin: 0; }
     .form-row input { width: 100%; }
 }
 @media (max-width: 768px) {
-    .enquiry-content h2 { font-size: 30px; color: #fff; }
-
     .form-row {
         flex-direction: column;
         gap: 30px;
