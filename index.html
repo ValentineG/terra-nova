@@ -121,11 +121,12 @@
 </div>
 
 <!-- Footer SCRIPTS -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-<script src="/js/v4-shims.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" defer></script>
 <script type="module" src="./src/js/head-scripts.js"></script>
-<script src="/js/rbtools.min.js"></script>
-<script src="/js/rs6.min.js"></script>
+
+<script src="/js/rbtools.min.js" defer></script>
+<script src="/js/rs6.min.js" defer></script>
+<script src="/js/rev-init.js" defer></script>
 
 <script type="text/javascript">
     window.RS_MODULES = window.RS_MODULES || {};
@@ -140,14 +141,14 @@
     if(typeof revslider_showDoubleJqueryError === "undefined") {function revslider_showDoubleJqueryError(sliderID) {console.log("You have some jquery.js library include that comes after the Slider Revolution files js inclusion.");console.log("To fix this, you can:");console.log("1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on");console.log("2. Find the double jQuery.js inclusion and remove it");return "Double Included jQuery Library";}}
 </script>
 
-<script src="/js/jquery.magnific-popup.min.js"></script>
-<script src="/js/slick.min.js"></script>
-<script src="/js/nav-mobile.js"></script>
+<script src="/js/jquery.magnific-popup.min.js" defer></script>
+<script src="/js/slick.min.js" defer></script>
+<script src="/js/nav-mobile.js" defer></script>
+<script src="/js/v4-shims.min.js" defer></script>
 
-<script type="module" src="./src/js/frontend.js"></script>
-<script type="module" src="./src/js/frontend-modules.min.js"></script>
-<script type="module" src="./src/js/property-tab.js"></script>
-<script type="text/javascript" src="/js/rev-init.js" defer></script>
-<script type="module" src="./src/js/lazy-load-init.js"></script>
+<script type="module" src="./src/js/frontend.js" defer></script>
+<script type="module" src="./src/js/frontend-modules.min.js" defer></script>
+<script type="module" src="./src/js/property-tab.js" defer></script>
+<!-- <script type="module" src="./src/js/lazy-load-init.js" defer></script> -->
 </body>
 </html>
